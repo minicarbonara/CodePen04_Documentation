@@ -44,7 +44,7 @@ First off let's create the documents themselves and set the two areas in the gri
 - Adjust the sizes, margins and paddings of the nav-bar and section blocks
 - Select and import an appropiate Google Font for titles and another for copy text.
 - Set a background-color for the nav-bar, the main, and the sections
-- Set a media query for VP width `<600px
+- Set a media query for VP width below 600px
 
 ### 3. Filling in the content
 - Clone the sample section 4 times, adding an `<ul>` and an `<ol>` to two different clones
