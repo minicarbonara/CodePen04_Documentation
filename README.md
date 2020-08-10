@@ -1,7 +1,7 @@
 # CodePen exercise 04 - Documentation page
 
 ## What I'm building
-Bogus documentation page.
+Bogus documentation page for FreeCodeCamp's exercise. There's a live, tweakable demo at [this CodePen](https://codepen.io/minicarbonara/pen/YzqXBbR).
 
 ## Requirements (per assignment)
 To make a **documentation page** featuring:
