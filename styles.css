@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #c1cdcd;
   margin: 0;
@@ -35,7 +33,7 @@ nav>ul {
   margin-top: 2.5em;
 }
 
-nav>footer {
+nav > footer {
   background-color: #ab4343;
   height: 4em;
   padding: 0px 10px 10px 10px;
@@ -59,7 +57,7 @@ section {
   color: #4b3305;
 }
 
-section>header {
+section > header {
   background-color: #8b3e2f;
   padding: 5px 10px;
   margin: -0.6em -0.6em 0.6em -0.6em;
@@ -70,22 +68,12 @@ section>header {
   color: #fdd891;
 }
 
-article p:first-child::first-letter {
-  color: 8b2323;
-  padding: 0 .3rem;
-  margin: .5rem .2rem 0 -0.2rem;
-  font-family: "Grenze Gotisch", Times, serif;
-  font-size: 3rem;
-  float: left;
-  line-height: 1;
-}
-
 strong {
   color: #8b2323;
 }
 
 a {
-  color: #8b2323;
+  color: #680000;
 }
 
 a:hover {
@@ -96,7 +84,8 @@ a:hover {
 
 @keyframes link-color {
     100% {
-      color: #ab4848;;
+      color: #ab4848;
+      margin-left: 10px;
     }
   }
 
@@ -104,13 +93,29 @@ a:active {
   color: #fdd891;
 }
 
+a:visited {
+  color: #000;
+}
+
 code {
   display: block;
   width: 80%;
   margin: 1em;
-  padding: 1em 4em 1em 1em;
+  padding: 1em;
   background-color: #FFE;
   color: #444;
+}
+
+@media (max-width: 1300px) {
+  article p:first-child::first-letter {
+    color: 8b2323;
+    padding: 0 .3rem;
+    margin: .5rem .2rem 0 -0.2rem;
+    font-family: "Grenze Gotisch", Times, serif;
+    font-size: 3rem;
+    float: left;
+    line-height: 1;
+  }
 }
 
 @media (max-width: 600px) {
@@ -121,6 +126,9 @@ code {
   }
   nav {
     min-height: 0;
+  }
+  nav > footer {
+    display: none;
   }
 }
 
